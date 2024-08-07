@@ -135,8 +135,3 @@ if __name__ == '__main__':
     os.makedirs(temp_dir, exist_ok=True)
 
     merge_video(['segment_0.mp4', 'segment_1.mp4', 'segment_2.mp4', 'segment_3.mp4'], 'merged.mp4', intput_dir, temp_dir, output_dir)
-
-    #测试Merge
-    print("hello!")
-
-
